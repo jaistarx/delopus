@@ -1,0 +1,43 @@
+body{
+  background-color: rgb(6, 6, 37);
+}
+.topflex{
+  display: flex;
+  justify-content: space-between;
+}
+.orangehead{
+  color: rgba(255, 136, 0, 0.986);
+}
+.boxes{
+  color: white;
+  width: 25%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  text-align: center;
+  
+}
+.bottomflex{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 3%;
+}
+.buttons{
+  background-color: rgb(6, 6, 37);
+  border: none;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  height: fit-content;
+  
+}
+.tutor{
+  width:50%;
+  height: 30%;
+}
+.teaching-images{
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+}
