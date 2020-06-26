@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body{
   background-color: rgb(6, 6, 37);
 }
@@ -6,7 +10,8 @@ body{
   justify-content: space-between;
 }
 .orangehead{
-  color: rgba(255, 136, 0, 0.986);
+  color: #FF9C07;
+  margin: 10px;
 }
 .boxes{
   color: white;
@@ -32,12 +37,19 @@ body{
   
 }
 .tutor{
-  width:50%;
+  width:75%;
   height: 30%;
 }
-.teaching-images{
-  margin-left: auto;
-  margin-right: auto;
+
+.absolute{
+  position: absolute;
+  margin-left: -18%;
+  margin-top: 23%;
+  font-size: 1.8rem;
+  font-weight: 600;
   
-  
+}
+.instructor{
+  font-size: 2.2rem;
+  font-weight: 800;
 }
