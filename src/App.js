@@ -68,7 +68,7 @@ function App() {
             ></img>
           </button>
           <img
-            src={"images/tcr" + count + ".png"}
+            src={"images/tcr" + count + ".svg"}
             alt="tutor"
             className="tutor"
           ></img>

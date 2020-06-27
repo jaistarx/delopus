@@ -31,22 +31,23 @@ body{
 .buttons{
   background-color: rgb(6, 6, 37);
   border: none;
+  outline: none;
   margin-top: 15%;
   margin-bottom: 15%;
   height: fit-content;
   
 }
 .tutor{
-  width:75%;
-  height: 30%;
+  width:65%;
+  
 }
 
 .absolute{
   position: absolute;
-  margin-left: -18%;
   margin-top: 23%;
   font-size: 1.8rem;
   font-weight: 600;
+  width:50%;
   
 }
 .instructor{
