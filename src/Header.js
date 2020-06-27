@@ -5,8 +5,8 @@ function Header() {
   return (
     <div>
       <div className="flexing">
-        <div>
-          <img src="images/graduate 1.png" alt="graduate"></img>
+        <div className="logo">
+          <img src="images/Delopus logo 1 2.svg" alt="graduate"></img>
         </div>
         
         <div className="nav">

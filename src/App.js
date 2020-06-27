@@ -38,19 +38,19 @@ function App() {
     <div className="App">
       <div className="topflex">
         <div className="boxes">
-          <img src="images/graduate 1.png" alt="graduate"></img>
+          <img src="images/edu.svg" alt="graduate"></img>
           <h3 className="orangehead">Endless Downloads</h3>
           <p>
             Stream hundreds of lessons from instructors the world loves the most
           </p>
         </div>
         <div className="boxes">
-          <img src="images/computer 1.svg" alt="computer"></img>
+          <img src="images/comp.svg" alt="computer"></img>
           <h3 className="orangehead">Anytime, Anywhere</h3>
           <p>Your class available on smart TVs, phones, mobiles and tablets</p>
         </div>
         <div className="boxes">
-          <img src="images/download 1.svg" alt="computer"></img>
+          <img src="images/down.svg" alt="computer"></img>
           <h3 className="orangehead">Unlimited Downloads</h3>
           <p>
             Downloads your favourites to watch where you want, when you want

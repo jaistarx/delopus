@@ -1,16 +1,17 @@
 .flexing{
     display: flex;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.616);
+    background-color: #161625;
     padding-left: 3%;
     padding-right: 3%;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
 }
+
 .nav{
     display: flex;
     justify-content: space-around;
-    color: #FF9C07;
+    color: #F3990F;
     margin-top: 1%;
 }
 .divider{
@@ -23,14 +24,14 @@
     
 }
 .searchtext{
-    border-color:#FF9C07;
+    border-color:#F3990F;
     background-color: rgba(0, 0, 0, 0.616);
     margin-top: 5%;
     border-radius: 20px;
     height: 55%;
     padding-left: 5%;
     margin-right: 4%;
-    color:#FF9C07;
+    color:#F3990F;
     outline: none;
 
     
