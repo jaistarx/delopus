@@ -8,33 +8,41 @@ function Header() {
         <div className="logo">
           <img src="images/Delopus logo 1 2.svg" alt="graduate"></img>
         </div>
-        
+
         <div className="nav">
           <div>
             <p>Home</p>
           </div>
           <div className="divider">
             <p>|</p>
-        </div>
+          </div>
           <div>
             <p>MyProfile</p>
           </div>
           <div className="divider">
             <p>|</p>
-        </div>
+          </div>
           <div>
             <p>Competitions</p>
           </div>
           <div className="divider">
             <p>|</p>
-        </div>
+          </div>
           <div>
             <p>Leaderboard</p>
           </div>
         </div>
         <div className="search">
-            <input type="text" className="searchtext" placeholder="Search"></input>
-            <img src="images/search 1 (2).svg" alt="graduate" className="searchicon"></img>
+          <input
+            type="text"
+            className="searchtext"
+            placeholder="Search"
+          ></input>
+          <img
+            src="images/search 1 (2).svg"
+            alt="graduate"
+            className="searchicon"
+          ></img>
         </div>
       </div>
     </div>
