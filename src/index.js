@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Header from './Header';
 import * as serviceWorker from './serviceWorker';
+import './fonts/Axiforma/Axiforma-Medium.woff';
 
 ReactDOM.render(
   <React.StrictMode>
