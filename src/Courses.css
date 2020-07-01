@@ -39,14 +39,14 @@ body {
   margin: 0.5rem 0.5rem 1.5rem;
   height: 100%;
   width: 540px;
-  border-top:3.5px solid black;
+  border-top: 3.5px solid black;
 }
 
 .coursebox {
   color: white;
 }
 
-.coursebox button{
+.coursebox button {
   background-color: transparent;
   border-color: white;
   outline: none;
@@ -54,6 +54,6 @@ body {
   width: 40%;
   color: white;
 }
-.coursebox h1{
+.coursebox h1 {
   font-size: 290%;
 }

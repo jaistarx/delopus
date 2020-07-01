@@ -37,8 +37,8 @@ function Courses() {
                 standard dummy text
               </p>
               <div className="fluxing">
-              <button>course details</button>
-              <button>join now</button>
+                <button>course details</button>
+                <button>join now</button>
               </div>
             </div>
           )}
@@ -51,7 +51,7 @@ function Courses() {
             </div>
           )}
         </div>
-        {/* <div className="img" className="img" onMouseEnter={F} onMouseLeave={F}>
+        <div className="img" onMouseEnter={F} onMouseLeave={F}>
           <img src="images/test.png" alt="courseimg"></img>
           {a && (
             <div>
@@ -72,7 +72,7 @@ function Courses() {
             </div>
           )}
         </div>
-        <div className="img" className="img" onMouseEnter={F} onMouseLeave={F}>
+        <div className="img" onMouseEnter={F} onMouseLeave={F}>
           <img src="images/test.png" alt="courseimg"></img>
           {a && (
             <div>
@@ -93,7 +93,7 @@ function Courses() {
             </div>
           )}
         </div>
-        <div className="img" className="img" onMouseEnter={F} onMouseLeave={F}>
+        <div className="img" onMouseEnter={F} onMouseLeave={F}>
           <img src="images/test.png" alt="courseimg"></img>
           {a && (
             <div>
@@ -114,7 +114,7 @@ function Courses() {
             </div>
           )}
         </div>
-        <div className="img" className="img" onMouseEnter={F} onMouseLeave={F}>
+        <div className="img" onMouseEnter={F} onMouseLeave={F}>
           <img src="images/test.png" alt="courseimg"></img>
           {a && (
             <div>
@@ -135,7 +135,7 @@ function Courses() {
             </div>
           )}
         </div>
-        <div className="img" className="img" onMouseEnter={F} onMouseLeave={F}>
+        <div className="img" onMouseEnter={F} onMouseLeave={F}>
           <img src="images/test.png" alt="courseimg"></img>
           {a && (
             <div>
@@ -155,7 +155,7 @@ function Courses() {
               </p>
             </div>
           )}
-        </div> */}
+        </div>
       </div>
     </div>
   );
