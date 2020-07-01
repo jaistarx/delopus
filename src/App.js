@@ -1,6 +1,7 @@
 import React from "react";
 import Front from "./Frontpage";
 import { Router } from "@reach/router";
+import Course from "./Coursepage"
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
   );
 }
 const Courses = () => {
-  return <h2>course</h2>;
+  return <Course />;
 };
 const Frontview = () => {
   return <Front />;

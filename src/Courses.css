@@ -1,0 +1,59 @@
+body {
+  background-color: white;
+}
+
+.title h1 {
+  font-size: 5.2rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+.title {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.7rem;
+  width: 42%;
+}
+.title p {
+  text-align: left;
+  margin-bottom: 2rem;
+  padding-left: 6px;
+}
+/* .desc {
+  text-align: left;
+  font-size: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+} */
+
+.fluxing {
+  /* box-sizing: border-box; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.img {
+  text-align: center;
+  background-color: black;
+  margin: 0.5rem 0.5rem 1.5rem;
+  height: 100%;
+  width: 540px;
+  border-top:3.5px solid black;
+}
+
+.coursebox {
+  color: white;
+}
+
+.coursebox button{
+  background-color: transparent;
+  border-color: white;
+  outline: none;
+  font-size: 1.2rem;
+  width: 40%;
+  color: white;
+}
+.coursebox h1{
+  font-size: 290%;
+}
