@@ -20,18 +20,22 @@ function Front() {
     const myobj = {
       instructor:"Roy Finley",
       role:"Gardening instructor",
+      picture:"images/tcr1.svg",
     }
     if(count===1){
       myobj.instructor="Roy Finley";
       myobj.role="Gardening instructor";
+      myobj.picture="images/tcr1.svg";
     }
     else if(count === 2) {
       myobj.instructor="Mary Thomas";
       myobj.role="Mathematics instructor";
+      myobj.picture="images/tcr2.svg";
     }
     else if(count === 3){
       myobj.instructor="John Damn";
       myobj.role="Science instructor";
+      myobj.picture="images/tcr3.svg";
     }
     return (
       <div className="App">
@@ -67,7 +71,7 @@ function Front() {
               ></img>
             </button>
             <img
-              src={"images/tcr" + count + ".svg"}
+              src={myobj.picture}
               alt="tutor"
               className="tutor"
             ></img>
