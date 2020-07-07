@@ -32,36 +32,30 @@ body {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.image-align{
-  width:95%;
+.image-align {
+  width: 100%;
 }
 .img {
   text-align: center;
   background-color: black;
   margin: 0.5rem 0.5rem 1.5rem;
-  padding: 0.1rem;
+  /* padding: 0.1rem; */
   height: 100%;
   width: 25%;
-
-  border-top:3.5px solid black;
+  border: 0.5rem solid black;
+  border-bottom: 0.5rem;
+  /* border-top: 3.5px solid black; */
 }
 
 .coursebox {
   color: white;
   position: absolute;
   margin-top: -13%;
-  width:25%;
+  width: 25%;
   font-size: 0.8rem;
 }
-.coursebox-new {
-  color: white;
-  position: absolute;
-  margin-top: -8%;
-  width:25%;
-  font-size: 1.1rem;
-}
 
-.coursebox button{
+.coursebox button {
   background-color: transparent;
   border-color: white;
   outline: none;
@@ -69,6 +63,14 @@ body {
   width: 40%;
   color: white;
 }
-.coursebox h1{
+.coursebox h1 {
   font-size: 290%;
+}
+
+.coursebox-new {
+  color: white;
+  position: absolute;
+  margin-top: -10%;
+  width: 25%;
+  font-size: 1.2rem;
 }
