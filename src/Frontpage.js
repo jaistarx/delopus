@@ -1,6 +1,7 @@
 import React , { useState } from "react";
 import "./Front.css";
 
+
 function Front() {
     const [count, setCount] = useState(1);
     const alterRight = () => {
@@ -90,6 +91,7 @@ function Front() {
             </button>
           </div>
         </div>
+        
       </div>
     );
 }

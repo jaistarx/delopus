@@ -11,7 +11,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   font-size: 1.7rem;
-  width: 46%;
+  width: 53%;
 }
 .title p {
   text-align: left;
@@ -48,6 +48,17 @@ body {
 
 .coursebox {
   color: white;
+  position: absolute;
+  margin-top: -13%;
+  width:25%;
+  font-size: 0.8rem;
+}
+.coursebox-new {
+  color: white;
+  position: absolute;
+  margin-top: -8%;
+  width:25%;
+  font-size: 1.1rem;
 }
 
 .coursebox button{

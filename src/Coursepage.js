@@ -54,7 +54,7 @@ function Courses() {
             </div>
           )}
           {(show !== 1 || b) && (
-            <div className="coursebox">
+            <div className="coursebox-new">
               <h1>NATA Coaching</h1>
               <p>
                 15+ chapters, Assignments and additional resources and more.
@@ -89,7 +89,7 @@ function Courses() {
             </div>
           )}
           {(show !== 2 || b) && (
-            <div className="coursebox">
+            <div className="coursebox-new">
               <h1>NATA Coaching</h1>
               <p>
                 15+ chapters, Assignments and additional resources and more.
@@ -124,7 +124,7 @@ function Courses() {
             </div>
           )}
           {(show !== 3 || b) && (
-            <div className="coursebox">
+            <div className="coursebox-new">
               <h1>NATA Coaching</h1>
               <p>
                 15+ chapters, Assignments and additional resources and more.
@@ -159,7 +159,7 @@ function Courses() {
             </div>
           )}
           {(show !== 4 || b) && (
-            <div className="coursebox">
+            <div className="coursebox-new">
               <h1>NATA Coaching</h1>
               <p>
                 15+ chapters, Assignments and additional resources and more.
@@ -194,7 +194,7 @@ function Courses() {
             </div>
           )}
           {(show !== 5 || b) && (
-            <div className="coursebox">
+            <div className="coursebox-new">
               <h1>NATA Coaching</h1>
               <p>
                 15+ chapters, Assignments and additional resources and more.
@@ -207,33 +207,43 @@ function Courses() {
           onMouseEnter={(e) => F(6)}
           onMouseLeave={(e) => G(6)}
         >
-          <img
-            src="images/test.png"
-            alt="courseimg"
-            className="image-align"
-          ></img>
           {show === 6 && a && (
-            <div className="coursebox">
-              <h1>NATA Coaching</h1>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text.Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry's
-                standard dummy text
-              </p>
-              <div className="fluxing">
-                <button>course details</button>
-                <button>join now</button>
+            <div>
+              <img
+                src="images/test.png"
+                alt="courseimg"
+                className="image-align"
+                style={{ opacity: 0.5 }}
+              ></img>
+              <div className="coursebox">
+                <h1>NATA Coaching</h1>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text.Lorem Ipsum is simply dummy text of the
+                  printing and typesetting industry. Lorem Ipsum has been the
+                  industry's standard dummy text
+                </p>
+                <div className="fluxing">
+                  <button>course details</button>
+                  <button>join now</button>
+                </div>
               </div>
             </div>
           )}
           {(show !== 6 || b) && (
-            <div className="coursebox">
-              <h1>NATA Coaching</h1>
-              <p>
-                15+ chapters, Assignments and additional resources and more.
-              </p>
+            <div>
+              <img
+                src="images/test.png"
+                alt="courseimg"
+                className="image-align"
+              ></img>
+              <div className="coursebox-new">
+                <h1>NATA Coaching</h1>
+                <p>
+                  15+ chapters, Assignments and additional resources and more.
+                </p>
+              </div>
             </div>
           )}
         </div>
