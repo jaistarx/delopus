@@ -1,0 +1,33 @@
+
+.flex{
+    display:flex;
+}
+.flex-space{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.contents{
+    background-color: rgb(223, 217, 217);
+    width: 30%;
+    padding: 0.6%;
+    padding-top: 1%;
+}
+.icon-drop{
+    margin-top: 1%;
+}
+.bt{
+    width: 10%;
+    border: none;
+    background-color: rgb(223, 217, 217);
+    display: block;
+
+
+}
+.thumbnails{
+    width:60%;
+    height: 100%;   
+}
+.descript{
+    font-size: 0.8rem;
+}
