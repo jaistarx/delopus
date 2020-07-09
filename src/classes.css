@@ -9,7 +9,7 @@
 }
 .contents{
     background-color: rgb(223, 217, 217);
-    width: 30%;
+    
     padding: 0.6%;
     padding-top: 1%;
 }
@@ -29,4 +29,25 @@
 }
 .descript{
     font-size: 0.8rem;
+}
+.outer{
+    width:30%;
+}
+.details{
+    margin: 2%;
+    text-decoration : underline;
+    cursor: pointer;
+}
+.rightside{
+    width:70%;
+    padding: 2%;
+}
+.bigimage{
+   
+    padding-top: 0%;
+    width:100%;
+}
+.heading{
+   
+    text-align: right;
 }
