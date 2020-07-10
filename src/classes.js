@@ -90,6 +90,7 @@ function Classes() {
             </div>
           )}
         </div>
+        
       </div>
     </div>
   );
