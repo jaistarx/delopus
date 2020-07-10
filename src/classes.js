@@ -2,15 +2,18 @@ import React, { useState } from "react";
 import "./classes.css";
 import { BsFillCaretDownFill } from "react-icons/bs";
 import { IconContext } from "react-icons/lib";
+import List from "./List";
 
 function Classes() {
   // const [toggle, setToggle] = useState(0);
   const [changer, setChanger] = useState(0);
   const [det, setDet] = useState(1);
-  const detailing = e => {
+  const [videono, setVideono] = useState("images/tcr1.svg");
+  const [lessonNo, setLessonNo] = useState(1.1);
+  const detailing = (e) => {
     setDet(e);
   };
-  const toggling = e => {
+  const toggling = (e) => {
     setChanger(e);
     if (changer === e) {
       setChanger(0);
@@ -18,12 +21,26 @@ function Classes() {
       setChanger(e);
     }
   };
+  const showVideo = (f) => {
+    setLessonNo(f);
+    // console.log(lessonNo);
+    var videoid = List.filter(function (videoElement) {
+      return f === videoElement.id;
+    });
+    if (videoid != false) {
+      setVideono(videoid[0].video);
+    }
+
+    // console.log(videono);
+  };
   return (
     <div>
       <div className="flex">
         <div className="outer">
           <div className="contents">
-            <h1><b>NATA Coaching</b></h1>
+            <h1>
+              <b>NATA Coaching</b>
+            </h1>
           </div>
           <div className="contents">
             <div className="flex-space">
@@ -32,12 +49,12 @@ function Classes() {
                 type="button"
                 className="bt"
                 style={{ outline: "none" }}
-                onClick={e => toggling(1)}
+                onClick={(e) => toggling(1)}
               >
                 <IconContext.Provider
                   value={{
                     size: "80%",
-                    color: changer === 1 ? "#F3990F" : "black"
+                    color: changer === 1 ? "#F3990F" : "black",
                   }}
                 >
                   <BsFillCaretDownFill className="icon-drop" />
@@ -46,7 +63,7 @@ function Classes() {
             </div>
             {changer === 1 && (
               <div>
-                <div>
+                <div onClick={(f) => showVideo(1.1)} className="pointcur">
                   <div className="flex">
                     <img
                       src="images/tcr1.svg"
@@ -63,7 +80,7 @@ function Classes() {
                     </div>
                   </div>
                 </div>
-                <div>
+                <div onClick={(f) => showVideo(1.2)} className="pointcur">
                   <div className="flex">
                     <img
                       src="images/tcr1.svg"
@@ -80,7 +97,7 @@ function Classes() {
                     </div>
                   </div>
                 </div>
-                <div>
+                <div onClick={(f) => showVideo(1.3)} className="pointcur">
                   <div className="flex">
                     <img
                       src="images/tcr1.svg"
@@ -107,12 +124,12 @@ function Classes() {
                 type="button"
                 className="bt"
                 style={{ outline: "none" }}
-                onClick={e => toggling(2)}
+                onClick={(e) => toggling(2)}
               >
                 <IconContext.Provider
                   value={{
                     size: "80%",
-                    color: changer === 2 ? "#F3990F" : "black"
+                    color: changer === 2 ? "#F3990F" : "black",
                   }}
                 >
                   <BsFillCaretDownFill className="icon-drop" />
@@ -121,7 +138,7 @@ function Classes() {
             </div>
             {changer === 2 && (
               <div>
-                <div>
+                <div onClick={(f) => showVideo(2.1)} className="pointcur">
                   <div className="flex">
                     <img
                       src="images/tcr1.svg"
@@ -138,7 +155,7 @@ function Classes() {
                     </div>
                   </div>
                 </div>
-                <div>
+                <div onClick={(f) => showVideo(2.2)} className="pointcur">
                   <div className="flex">
                     <img
                       src="images/tcr1.svg"
@@ -155,7 +172,7 @@ function Classes() {
                     </div>
                   </div>
                 </div>
-                <div>
+                <div onClick={(f) => showVideo(2.3)} className="pointcur">
                   <div className="flex">
                     <img
                       src="images/tcr1.svg"
@@ -182,12 +199,12 @@ function Classes() {
                 type="button"
                 className="bt"
                 style={{ outline: "none" }}
-                onClick={e => toggling(3)}
+                onClick={(e) => toggling(3)}
               >
                 <IconContext.Provider
                   value={{
                     size: "80%",
-                    color: changer === 3 ? "#F3990F" : "black"
+                    color: changer === 3 ? "#F3990F" : "black",
                   }}
                 >
                   <BsFillCaretDownFill className="icon-drop" />
@@ -196,7 +213,7 @@ function Classes() {
             </div>
             {changer === 3 && (
               <div>
-                <div>
+                <div onClick={(f) => showVideo(3.1)} className="pointcur">
                   <div className="flex">
                     <img
                       src="images/tcr1.svg"
@@ -213,7 +230,7 @@ function Classes() {
                     </div>
                   </div>
                 </div>
-                <div>
+                <div onClick={(f) => showVideo(3.2)} className="pointcur">
                   <div className="flex">
                     <img
                       src="images/tcr1.svg"
@@ -230,7 +247,7 @@ function Classes() {
                     </div>
                   </div>
                 </div>
-                <div>
+                <div onClick={(f) => showVideo(3.3)} className="pointcur">
                   <div className="flex">
                     <img
                       src="images/tcr1.svg"
@@ -253,18 +270,20 @@ function Classes() {
         </div>
         <div className="rightside">
           <div className="heading">
-            <h1>Part 1: Chapter 1</h1>
+            <h1>
+              Part {parseInt(lessonNo)}: Chapter {(lessonNo * 10) % 10}
+            </h1>
           </div>
-          <img src="images/tcr2.png" alt="side image" className="bigimage"></img>
+          <img src={videono} alt="side image" className="bigimage"></img>
           <div className="flex">
             <div className="details">
-              <h3 onClick={e => detailing(1)}>About</h3>
+              <h3 onClick={(e) => detailing(1)}>About</h3>
             </div>
             <div className="details">
-              <h3 onClick={e => detailing(2)}>Transcript</h3>
+              <h3 onClick={(e) => detailing(2)}>Transcript</h3>
             </div>
             <div className="details">
-              <h3 onClick={e => detailing(3)}>Resources</h3>
+              <h3 onClick={(e) => detailing(3)}>Resources</h3>
             </div>
           </div>
           {det === 1 && (
