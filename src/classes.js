@@ -6,7 +6,7 @@ import List from "./List";
 
 function Classes() {
   // const [toggle, setToggle] = useState(0);
-  const [changer, setChanger] = useState(0);
+  const [changer, setChanger] = useState(1);
   const [det, setDet] = useState(1);
   const [videono, setVideono] = useState("images/tcr1.svg");
   const [lessonNo, setLessonNo] = useState(1.1);
@@ -27,7 +27,7 @@ function Classes() {
     var videoid = List.filter(function (videoElement) {
       return f === videoElement.id;
     });
-    if (videoid != false) {
+    if (videoid !== false) {
       setVideono(videoid[0].video);
     }
 
@@ -274,7 +274,7 @@ function Classes() {
               Part {parseInt(lessonNo)}: Chapter {(lessonNo * 10) % 10}
             </h1>
           </div>
-          <img src={videono} alt="side image" className="bigimage"></img>
+          <img src={videono} alt="side" className="bigimage"></img>
           <div className="flex">
             <div className="details">
               <h3 onClick={(e) => detailing(1)}>About</h3>

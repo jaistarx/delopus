@@ -28,10 +28,11 @@
     height: 100%;   
 }
 .descript{
-    font-size: 0.8rem;
+    font-size: 0.75rem;
 }
 .outer{
-    width:30%;
+    width:29%;
+    
 }
 .details{
     margin: 2%;
@@ -45,7 +46,9 @@
 .bigimage{
    
     padding-top: 0%;
-    width:100%;
+    width:90%;
+    margin-left: 5%;
+    
 }
 .heading{
    

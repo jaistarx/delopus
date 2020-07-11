@@ -26,7 +26,7 @@
 }
 .searchtext{
     border-color:#F3990F;
-    background-color: rgba(0, 0, 0, 0.616);
+    background-color: #161625;
     margin-top: 5%;
     border-radius: 20px;
     height: 55%;
@@ -34,4 +34,45 @@
     margin-right: 4%;
     color:#F3990F;
     outline: none;
+}
+.hamburg{
+    margin-top: 1.5%;
+    display: none;
+}
+.searchicon2{
+    display: none;
+}
+
+@media screen and (max-width:56rem){
+    .search{
+        display: none;
+    }
+    .nav{
+        display: none;
+    }
+    .hamburg{
+        display: block;
+    }
+    .links{
+        color:#F3990F;
+        margin-left: auto;
+        width: 60%;
+        padding-bottom: 1rem ;
+    }
+    .flexing{
+        display: flex;
+        justify-content: first baseline;
+        
+    }
+    .searchicon2{
+        display: block;
+        margin-left: auto;
+        margin-right: 2%;
+    }
+    .searchtext{
+        
+        margin-top: 2%;
+        margin-bottom: 1%;
+        width: 50%;
+    }
 }
