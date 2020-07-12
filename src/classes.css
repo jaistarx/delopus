@@ -1,6 +1,13 @@
 
 .flex{
     display:flex;
+
+}
+.flex-atr{
+    display:flex;
+}
+.flex-outer{
+    display:flex;
 }
 .flex-space{
     display:flex;
@@ -38,6 +45,10 @@
     margin: 2%;
     text-decoration : underline;
     cursor: pointer;
+    
+}
+.dist{
+    margin: 2%;
 }
 .rightside{
     width:70%;
@@ -49,10 +60,60 @@
     width:90%;
     margin-left: 5%;
     
+    
 }
 .heading{
    
     text-align: right;
 }.pointcur{
     cursor: pointer;
+}
+@media screen and (max-width:65rem){
+    .flex-outer{
+        flex-direction: column-reverse;
+    }
+    .bigimage{
+        width:90%;
+        margin-right: 5%;
+    }
+    .outer{
+        width:100%;
+        
+    }
+    .heading{
+   
+        text-align: center;
+        
+    }
+    .rightside{
+        width:100%;
+       
+    }
+    .flex-atr{
+        justify-content: space-evenly;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .thumbnails{
+        width:40%;
+           
+    }
+    .details{
+        font-size: 1.3rem;
+    }
+    .details-text{
+        font-size: 0.9rem;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+@media screen and (max-width:30rem){
+    .flex{
+        flex-direction: column;
+    }
+    .thumbnails{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

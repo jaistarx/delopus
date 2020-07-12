@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
 import { BsList } from "react-icons/bs";
+import { BsSearch } from "react-icons/bs";
 import { IconContext } from "react-icons/lib";
 
 function Header() {
@@ -64,14 +65,22 @@ function Header() {
           ></img>
         </div>
         
+        <IconContext.Provider
+            value={{
+              size: "6.5%",
+              color: "#F3990F",
+            }}
+          >
+            
+            <BsSearch className="searchicon2" onClick={searching} />
+          </IconContext.Provider>
           
-          
-          <img
+          {/* <img
             src="images/search 1 (2).svg"
             alt="graduate"
             className="searchicon2"
             onClick={searching}
-          ></img>
+          ></img> */}
           {(search===1) && <input
             type="text"
             className="searchtext"

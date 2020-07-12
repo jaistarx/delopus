@@ -41,15 +41,14 @@ function Courses() {
                 style={{ opacity: 0.5 }}
               ></img>
               <div className="coursebox">
-                <h1>NATA Coaching</h1>
+                <h2>NATA Coaching</h2>
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text.Lorem Ipsum is simply dummy text of the
-                  printing and typesetting industry. Lorem Ipsum has been the
-                  industry's standard dummy text
+                  printing and typesetting industry. 
                 </p>
-                <div className="fluxing">
+                <div className="fluxing-bt">
                   <button>course details</button>
                   <button>join now</button>
                 </div>
@@ -64,7 +63,7 @@ function Courses() {
                 className="image-align"
               ></img>
               <div className="coursebox-new">
-                <h1>NATA Coaching</h1>
+                <h2>NATA Coaching</h2>
                 <p>
                   15+ chapters, Assignments and additional resources and more.
                 </p>
@@ -87,15 +86,14 @@ function Courses() {
                 style={{ opacity: 0.5 }}
               ></img>
               <div className="coursebox">
-                <h1>Fine art workshop</h1>
+                <h2>Fine art workshop</h2>
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text.Lorem Ipsum is simply dummy text of the
-                  printing and typesetting industry. Lorem Ipsum has been the
-                  industry's standard dummy text
+                  printing and typesetting industry.
                 </p>
-                <div className="fluxing">
+                <div className="fluxing-bt">
                   <button>course details</button>
                   <button>join now</button>
                 </div>
@@ -110,7 +108,7 @@ function Courses() {
                 className="image-align"
               ></img>
               <div className="coursebox-new">
-                <h1>Fine art workshop</h1>
+                <h2>Fine art workshop</h2>
                 <p>
                   15+ chapters, Assignments and additional resources and more.
                 </p>
@@ -132,15 +130,14 @@ function Courses() {
                 style={{ opacity: 0.5 }}
               ></img>
               <div className="coursebox">
-                <h1>Film making course</h1>
+                <h2>Film making course</h2>
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text.Lorem Ipsum is simply dummy text of the
-                  printing and typesetting industry. Lorem Ipsum has been the
-                  industry's standard dummy text
+                  printing and typesetting industry. 
                 </p>
-                <div className="fluxing">
+                <div className="fluxing-bt">
                   <button>course details</button>
                   <button>join now</button>
                 </div>
@@ -155,7 +152,7 @@ function Courses() {
                 className="image-align"
               ></img>
               <div className="coursebox-new">
-                <h1>Film making course</h1>
+                <h2>Film making course</h2>
                 <p>
                   15+ chapters, Assignments and additional resources and more.
                 </p>
@@ -177,15 +174,14 @@ function Courses() {
                 style={{ opacity: 0.5 }}
               ></img>
               <div className="coursebox">
-                <h1>Interior design</h1>
+                <h2>Interior design</h2>
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text.Lorem Ipsum is simply dummy text of the
-                  printing and typesetting industry. Lorem Ipsum has been the
-                  industry's standard dummy text
+                  printing and typesetting industry. 
                 </p>
-                <div className="fluxing">
+                <div className="fluxing-bt">
                   <button>course details</button>
                   <button>join now</button>
                 </div>
@@ -200,7 +196,7 @@ function Courses() {
                 className="image-align"
               ></img>
               <div className="coursebox-new">
-                <h1>Interior design</h1>
+                <h2>Interior design</h2>
                 <p>
                   15+ chapters, Assignments and additional resources and more.
                 </p>
@@ -222,15 +218,14 @@ function Courses() {
                 style={{ opacity: 0.5 }}
               ></img>
               <div className="coursebox">
-                <h1>Masonry workshop</h1>
+                <h2>Masonry workshop</h2>
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text.Lorem Ipsum is simply dummy text of the
-                  printing and typesetting industry. Lorem Ipsum has been the
-                  industry's standard dummy text
+                  printing and typesetting industry. 
                 </p>
-                <div className="fluxing">
+                <div className="fluxing-bt">
                   <button>course details</button>
                   <button>join now</button>
                 </div>
@@ -245,7 +240,7 @@ function Courses() {
                 className="image-align"
               ></img>
               <div className="coursebox-new">
-                <h1>Masonry workshop</h1>
+                <h2>Masonry workshop</h2>
                 <p>
                   15+ chapters, Assignments and additional resources and more.
                 </p>
@@ -267,15 +262,14 @@ function Courses() {
                 style={{ opacity: 0.5 }}
               ></img>
               <div className="coursebox">
-                <h1>Lighting course</h1>
+                <h2>Lighting course</h2>
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text.Lorem Ipsum is simply dummy text of the
-                  printing and typesetting industry. Lorem Ipsum has been the
-                  industry's standard dummy text
+                  printing and typesetting industry. 
                 </p>
-                <div className="fluxing">
+                <div className="fluxing-bt">
                   <button>course details</button>
                   <button>join now</button>
                 </div>
@@ -290,7 +284,7 @@ function Courses() {
                 className="image-align"
               ></img>
               <div className="coursebox-new">
-                <h1>Lighting course</h1>
+                <h2>Lighting course</h2>
                 <p>
                   15+ chapters, Assignments and additional resources and more.
                 </p>

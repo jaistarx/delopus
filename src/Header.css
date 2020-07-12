@@ -36,14 +36,23 @@
     outline: none;
 }
 .hamburg{
-    margin-top: 1.5%;
+    margin-top: 1.8%;
     display: none;
 }
 .searchicon2{
+    margin-top: 1.8%;
     display: none;
 }
-
-@media screen and (max-width:56rem){
+@media screen and (max-width:75rem){
+    .nav{
+        width:57.5%;
+        margin-top: 1.3%;
+    }
+    .logo{
+        margin-top: 0.5%;
+    }
+}
+@media screen and (max-width:50.5rem){
     .search{
         display: none;
     }
@@ -68,6 +77,7 @@
         display: block;
         margin-left: auto;
         margin-right: 2%;
+        
     }
     .searchtext{
         

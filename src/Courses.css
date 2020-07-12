@@ -11,57 +11,58 @@ body {
   margin-left: auto;
   margin-right: auto;
   font-size: 1.7rem;
-  width: 53%;
+  width: 80%;
 }
 .title p {
-  text-align: left;
+  
   margin-bottom: 2rem;
-  padding-left: 6px;
+  padding-left: 1%;
+  
+  
+
 }
-/* .desc {
-  text-align: left;
-  font-size: 1.5rem;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-} */
+
 
 .fluxing {
   /* box-sizing: border-box; */
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* flex-wrap: wrap; */
   justify-content: space-evenly;
 }
+
 .image-align {
   width: 100%;
 }
 .img {
   text-align: center;
-  background-color: black;
-  margin: 0.5rem 0.5rem 1.5rem;
+  /* background-color: black; */
+  margin: 0.5rem 3rem 1.5rem;
   /* padding: 0.1rem; */
   height: 100%;
-  width: 25%;
-  border: 0.5rem solid black;
+  width: 80%;
+  /* border: 0.5rem solid black; */
   border-bottom: 0.5rem;
   /* border-top: 3.5px solid black; */
 }
 
 .coursebox {
-  color: white;
+  color: black;
   position: absolute;
   margin-top: -13%;
   width: 25%;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
+  margin-left: 1%;
+  
 }
 
 .coursebox button {
   background-color: transparent;
-  border-color: white;
+  border-color: black;
   outline: none;
-  font-size: 1.2rem;
+  font-size: 1rem;
   width: 40%;
-  color: white;
+  color: black;
 }
 .coursebox h1 {
   font-size: 290%;
@@ -73,4 +74,136 @@ body {
   margin-top: -10%;
   width: 25%;
   font-size: 1.2rem;
+}
+.fluxing-bt {
+  display: flex;
+  justify-content: space-evenly;  
+}
+@media screen and (max-width:82rem){
+  .fluxing {
+    
+    grid-template-columns: auto auto;
+    
+  }
+  .title h1 {
+    font-size: 4rem;
+    
+  }
+  .title{
+    width:80%;
+  }
+  .title p {
+    font-size: 1.3rem;
+  }
+  .coursebox {
+    
+    margin-top: -20%;
+    width: 35%;
+    
+    margin-left: 2%;
+    
+  }
+  .coursebox-new {
+  
+  margin-top: -15%;
+  width: 35%;
+  
+  margin-left: 1%;
+}
+}
+@media screen and (max-width:58rem){
+  .fluxing {
+    
+    grid-template-columns: auto;
+    
+  }
+  
+  .coursebox {
+    
+    margin-top: -28%;
+    width: 50%;
+    font-size: 0.9rem;
+    margin-left: 3%;
+    
+  }
+  .coursebox-new {
+  
+  margin-top: -20%;
+  width: 50%;
+  margin-left: 5%;
+  
+}
+.coursebox h2{
+  font-size: 1.9rem;
+}
+.coursebox-new h2{
+  font-size: 1.9rem;
+}
+
+}
+@media screen and (max-width:47rem){
+  
+  .coursebox {
+    
+    margin-top: -35%;
+    width: 65%;
+    font-size: 0.9rem;
+    margin-left: 2.5%;
+    
+  }
+  .coursebox-new {
+  
+  margin-top: -26%;
+  width: 65%;
+  margin-left: 5%;
+  font-size: 1rem;
+  
+}
+.coursebox h2{
+  font-size: 1.5rem;
+}
+.coursebox-new h2{
+  font-size: 1.9rem;
+}
+.title h1 {
+  font-size: 3.5rem;
+  
+}
+
+.title p {
+  font-size: 1rem;
+}
+}
+@media screen and (max-width:35rem){
+  
+  .coursebox {
+    
+    margin-top: -42%;
+    width: 70%;
+    font-size: 0.65rem;
+    margin-left: 3%;
+    
+  }
+  .coursebox-new {
+  
+  margin-top: -30%;
+  width: 65%;
+  margin-left: 5%;
+  font-size: 0.9rem;
+  
+}
+.coursebox button {
+  
+  font-size: 0.7rem;
+  
+}
+.coursebox h2{
+  font-size: 1.5rem;
+}
+.coursebox-new h2{
+  font-size: 1.5rem;
+}
+.img{
+  margin-left: 10%;
+}
 }

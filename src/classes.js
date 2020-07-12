@@ -35,7 +35,7 @@ function Classes() {
   };
   return (
     <div>
-      <div className="flex">
+      <div className="flex-outer">
         <div className="outer">
           <div className="contents">
             <h1>
@@ -55,9 +55,10 @@ function Classes() {
                   value={{
                     size: "80%",
                     color: changer === 1 ? "#F3990F" : "black",
+                    
                   }}
                 >
-                  <BsFillCaretDownFill className="icon-drop" />
+                  <BsFillCaretDownFill className="icon-drop" style={{transform:changer === 1 ? "rotate(180deg)" : "rotate(0deg)"}}/>
                 </IconContext.Provider>
               </button>
             </div>
@@ -132,7 +133,7 @@ function Classes() {
                     color: changer === 2 ? "#F3990F" : "black",
                   }}
                 >
-                  <BsFillCaretDownFill className="icon-drop" />
+                  <BsFillCaretDownFill className="icon-drop" style={{transform:changer === 2 ? "rotate(180deg)" : "rotate(0deg)"}}/>
                 </IconContext.Provider>
               </button>
             </div>
@@ -207,7 +208,7 @@ function Classes() {
                     color: changer === 3 ? "#F3990F" : "black",
                   }}
                 >
-                  <BsFillCaretDownFill className="icon-drop" />
+                  <BsFillCaretDownFill className="icon-drop" style={{transform:changer === 3 ? "rotate(180deg)" : "rotate(0deg)"}}/>
                 </IconContext.Provider>
               </button>
             </div>
@@ -275,20 +276,20 @@ function Classes() {
             </h1>
           </div>
           <img src={videono} alt="side" className="bigimage"></img>
-          <div className="flex">
-            <div className="details">
-              <h3 onClick={(e) => detailing(1)}>About</h3>
+          <div className="flex-atr">
+            <div className="dist">
+              <h3 onClick={(e) => detailing(1)}  className="details">About</h3>
             </div>
-            <div className="details">
-              <h3 onClick={(e) => detailing(2)}>Transcript</h3>
+            <div className="dist">
+              <h3 onClick={(e) => detailing(2)} className="details">Transcript</h3>
             </div>
-            <div className="details">
-              <h3 onClick={(e) => detailing(3)}>Resources</h3>
+            <div className="dist">
+              <h3 onClick={(e) => detailing(3)} className="details">Resources</h3>
             </div>
           </div>
           {det === 1 && (
             <div>
-              <p>
+              <p className="details-text">
                 Lorem Ipsum has been the industry's standard dummy text ever
                 since the 1500s, when an unknown printer took a galley of type
                 and scrambled it to make a type specimen book.{" "}
@@ -297,7 +298,7 @@ function Classes() {
           )}
           {det === 2 && (
             <div>
-              <p>
+              <p className="details-text">
                 {" "}
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.It is a long established fact that a reader will be
@@ -309,7 +310,7 @@ function Classes() {
           )}
           {det === 3 && (
             <div>
-              <p>
+              <p className="details-text">
                 {" "}
                 It has survived not only five centuries, but also the leap into
                 electronic typesetting, remaining essentially unchanged.Lorem
