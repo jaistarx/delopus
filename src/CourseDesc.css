@@ -1,0 +1,65 @@
+.topflexing{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+.join{
+    padding: 3%;
+    outline: none;
+    border: none;
+    background-color: rgb(104, 104, 104);
+    color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    width:90%;
+   
+}
+
+.vdo{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 3%;
+}
+.imgvdo{
+    width: 100%;
+}
+.graybox{
+    background-color: rgb(223, 217, 217);
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+}
+ul li{
+    margin-left: 7%;
+    padding: 0.5%;
+}
+.grayflexing{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    font-size: 1.5rem;
+    font-weight: 750;
+    cursor: pointer;
+
+}
+.pplflex{
+    display: flex;
+    /* justify-content: space-evenly; */
+    
+   
+    
+    
+}
+.ppl{
+    margin-left: 0.5%;
+    font-size: 0.8rem;
+    color:gray;
+   
+}

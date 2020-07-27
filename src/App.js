@@ -1,8 +1,9 @@
 import React from "react";
 import Front from "./Frontpage";
 import { Router } from "@reach/router";
-import Course from "./Coursepage"
-import Classes from "./classes"
+import Course from "./Coursepage";
+import Classes from "./classes";
+import Desc from "./CourseDesc";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Frontview path="/"></Frontview>
       <Courses path="/courses"></Courses>
       <Classview path="/classes"></Classview>
+      <Description path="/description"></Description>
     </Router>
   );
 }
@@ -21,5 +23,8 @@ const Frontview = () => {
 };
 const Classview = () => {
   return <Classes />;
+};
+const Description = () => {
+  return <Desc />;
 };
 export default App;

@@ -1,0 +1,52 @@
+.profile{
+    
+    border-radius: 100%;
+}
+
+.ratings{
+    display: flex;
+    width:50%;
+    padding-top: 2.5%;
+}
+.spaces{
+    margin: 1.5%;
+    margin-left: 5%;
+}
+/*charts.js*/
+.rateflex{
+    display: flex;
+    margin-left: 2.5%;
+    
+}
+.pplflex{
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    
+}
+.ppl{
+    margin-left: 25%;
+    font-size: 0.8rem;
+    color:gray;
+   
+}
+.texts{
+    width: 40%;
+    height: 100%;
+    margin-top: 5%;
+    margin-left: 15%;
+    padding: 0.7%;
+}
+.review{
+    width:50%;
+    display: flex;
+}
+.mypro{
+    border-radius: 100%;
+    margin: 1%;
+  
+    
+}
+/*charts.js*/
