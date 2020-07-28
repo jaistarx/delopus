@@ -1,5 +1,4 @@
 .profile{
-    
     border-radius: 100%;
 }
 
@@ -8,6 +7,7 @@
     width:50%;
     padding-top: 2.5%;
 }
+
 .spaces{
     margin: 1.5%;
     margin-left: 5%;
@@ -16,37 +16,95 @@
 .rateflex{
     display: flex;
     margin-left: 2.5%;
-    
+    width:100%;    
+}
+
+.bars{
+    width: 25%;
 }
 .pplflex{
     display: flex;
-    /* justify-content: space-evenly; */
     margin-left: 20%;
     margin-right: 20%;
     width: 60%;
     
 }
+
 .ppl{
     margin-left: 25%;
     font-size: 0.8rem;
     color:gray;
+    margin-top: 5%;
    
 }
-.texts{
-    width: 40%;
-    height: 100%;
-    margin-top: 5%;
-    margin-left: 15%;
-    padding: 0.7%;
-}
+
+
 .review{
     width:50%;
     display: flex;
 }
-.mypro{
-    border-radius: 100%;
-    margin: 1%;
-  
+
+.rate{
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: 35%;
+    margin-left: 20%;
+    margin-right: 20%;
+    width:60%;
+
     
 }
 /*charts.js*/
+@media screen and (max-width:54rem){
+    .ratings{
+        width: 85%;
+        font-size: 0.8rem;
+    }
+    
+    .bars{
+        width: 30%;
+    }
+    
+    .rate{
+        font-size: 5rem;
+        margin-left: 30%;
+        margin-right: 30%;
+        width:40%;
+        margin-top: 10%;
+    }
+    .rate-stars{
+        margin-left: 30%;
+        margin-right: 30%;
+        width:40%;
+    }
+    .ppl{
+        margin-left: 0.5%;
+        margin-top: 1%;
+        font-size: 0.9rem;
+    }
+    .pplflex{
+        margin-left: 35%;
+        margin-right: 35%;
+        width:30%;  
+    }
+    
+    
+}
+@media screen and (max-width:40rem){
+    .rateflex{
+        flex-direction: column;
+    }
+    .bars{
+        width: 80%;
+        margin-left: 2%;
+    }
+    
+    .star-margin{
+        margin-left: 1%;
+    }
+    
+    .ppl{
+        margin-left: 5%;
+    }
+    
+}

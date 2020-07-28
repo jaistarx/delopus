@@ -22,8 +22,8 @@ function Desc() {
   return (
     <div>
       <div className="topflexing">
-        <div style={{ width: "40%" }}>
-          <h1 style={{fontWeight:'800'}}>NATA Coaching</h1>
+        <div className="headingmain">
+          <h1 style={{ fontWeight: "800" }}>NATA Coaching</h1>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.Lorem Ipsum is simply dummy text of the printing and
@@ -31,23 +31,35 @@ function Desc() {
             dummy text.
           </p>
         </div>
-        <div>
-          <h1 style={{fontWeight:'800'}}>15+</h1>
-          <p>Chapters</p>
+        <div className="resp">
+          <div>
+            <h1 style={{ fontWeight: "800" }}>15+</h1>
+          </div>
+          <div className="topp">
+            <p>Chapters</p>
+          </div>
         </div>
-        <div>
-          <h1 style={{fontWeight:'800'}}>10+</h1>
-          <p>Assignments</p>
+        <div className="resp">
+          <div>
+            <h1 style={{ fontWeight: "800" }}>10+</h1>
+          </div>
+          <div className="topp">
+            <p>Assigmnets</p>
+          </div>
         </div>
-        <div>
-          <h1 style={{fontWeight:'800'}}>15+</h1>
-          <p>Extra Resources</p>
+        <div className="resp">
+          <div>
+            <h1 style={{ fontWeight: "800" }}>15+</h1>
+          </div>
+          <div className="topp">
+            <p>Extra resources</p>
+          </div>
         </div>
-        <div style={{ width: "15%" }}>
+        <div className="starbutton">
           <div>
             <div>
               <div className="pplflex">
-                <div>
+                <div className="star">
                   <Rating
                     name="half-rating-read"
                     defaultValue={4.5}
@@ -74,11 +86,12 @@ function Desc() {
               </div>
             </div>
           </div>
-          <button className="join">Join now for 3000</button>
+          <div>
+          <button className="join">Join now for 3000</button></div>
         </div>
       </div>
       <div className="vdo">
-        <h3>Course Introduction</h3>
+        <h3 className="course-intro">Course Introduction</h3>
         <img src="images/tcr2.png" alt="vdo" className="imgvdo"></img>
       </div>
       <div className="graybox">
@@ -114,7 +127,7 @@ function Desc() {
             <p>FAQ</p>
           </div>
         </div>
-        <div>
+        <div className="text-desc">
           {des === 1 && (
             <div>
               <p>

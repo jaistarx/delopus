@@ -22,6 +22,9 @@ var options = {
       },
     ],
   },
+  legend: {
+      display:false,
+  }
 };
 const data = {
   labels: ["5", "4", "3", "2", "1"],
@@ -35,7 +38,7 @@ const data = {
         "rgba(0,99,132)",
         "rgba(255,99,0)",
       ],
-      //   borderColor: 'rgba(255,99,132,1)',
+      
       borderWidth: 1,
 
       data: [85, 59, 20, 11, 6],
@@ -47,61 +50,45 @@ export default class BarExample extends Component {
   render() {
     return (
       <div className="rateflex">
-        <div>
-          <div
-            style={{
-              fontSize: "3rem",
-              fontWeight: "800",
-              marginTop: "20%",
-              marginLeft: "20%",
-              marginRight: "20%",
-              width: "60%",
-            }}
-          >
+        <div className="star-margin">
+          <div className="rate">
             <p>4.5</p>
           </div>
-          <Rating
-            name="half-rating-read"
-            defaultValue={4.5}
-            precision={0.5}
-            readOnly
-          />
+          <div className="rate-stars">
+            <Rating
+              name="half-rating-read"
+              defaultValue={4.5}
+              precision={0.5}
+              readOnly
+            />
+          </div>
           <div>
             <div className="pplflex">
-              <div style={{width:'10%'}}>
+              <div style={{ width: "10%" }}>
                 <IconContext.Provider
                   value={{
-                    // size: "30.5%",
                     color: "gray",
                   }}
                 >
                   <BsPersonFill />
                 </IconContext.Provider>
               </div>
-              <div className="ppl" style={{marginTop:'5%'}}>
+              <div className="ppl">
                 <p>3339</p>
               </div>
             </div>
-            <p className="ppl" style={{marginTop:'-10%'}}>Total</p>
           </div>
         </div>
-        <div style={{ width: "25%" }}>
+        <div className="bars">
           <h2>Reviews</h2>
           <HorizontalBar
             data={data}
             width={100}
             height={50}
-            type="horizontalBar"
             options={options}
           />
         </div>
-
-        <textarea
-          placeholder="Write your review"
-          type="text"
-          className="texts"
-        ></textarea>
-        <img src="images/edu.svg" alt="profile" className="mypro"></img>
+        
       </div>
     );
   }

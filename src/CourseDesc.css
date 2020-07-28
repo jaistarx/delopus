@@ -3,6 +3,12 @@
     justify-content: space-evenly;
     margin-top: 2%;
 }
+.headingmain{
+    width: 40%;
+}
+.starbutton{
+    width:15%;
+}
 .join{
     padding: 3%;
     outline: none;
@@ -51,15 +57,67 @@ ul li{
 }
 .pplflex{
     display: flex;
-    /* justify-content: space-evenly; */
-    
    
-    
-    
 }
 .ppl{
     margin-left: 0.5%;
     font-size: 0.8rem;
     color:gray;
    
+}
+@media screen and (max-width:54rem){
+    .topflexing{
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+        width:90%;
+    }
+    .headingmain{
+        width:90%;
+        font-size: 0.8rem;
+    }
+    .resp{
+        display: flex;
+        
+    }
+    .vdo{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .join{
+        margin-left: 10%;
+        width:80%;
+    }
+    .topp{
+        margin-left: 1.5%;
+    }
+    .starbutton{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .grayflexing{
+        flex-direction: column;
+        font-size: 1rem;
+    }
+    .text-desc{
+        font-size: 0.8rem;
+    }
+    .course-intro{
+        font-size: 1.2rem;
+        margin-left: 3%;
+        margin-right: 3%;
+        width:96%;
+        margin-top: 8%;
+    }
+    
+}
+@media screen and (max-width:45rem){
+    .starbutton{
+        flex-direction: column;
+        
+    }
+    .star{
+        margin-left:-45%;
+    }
 }
