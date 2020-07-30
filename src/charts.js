@@ -4,6 +4,7 @@ import Rating from "@material-ui/lab/Rating";
 import "./stars.css";
 import { IconContext } from "react-icons/lib";
 import { BsPersonFill } from "react-icons/bs";
+// git test
 var options = {
   scales: {
     xAxes: [
