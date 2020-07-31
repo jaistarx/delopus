@@ -3,7 +3,7 @@ import "./CourseDesc.css";
 import SimpleRating from "./stars";
 import { IconContext } from "react-icons/lib";
 import { BsPersonFill } from "react-icons/bs";
-import Rating from "@material-ui/lab/Rating";
+import StarRatings from "react-star-ratings";
 function Desc() {
   const [des, setDes] = useState(1);
   const disp = (e) => {
@@ -60,11 +60,11 @@ function Desc() {
             <div>
               <div className="pplflex">
                 <div className="star">
-                  <Rating
-                    name="half-rating-read"
-                    defaultValue={4.5}
-                    precision={0.5}
-                    readOnly
+                  <StarRatings
+                    rating={4.503}
+                    starDimension="1rem"
+                    starSpacing="0.05rem"
+                    starRatedColor="#F3990F"
                   />
                 </div>
                 <div>
@@ -87,7 +87,8 @@ function Desc() {
             </div>
           </div>
           <div>
-          <button className="join">Join now for 3000</button></div>
+            <button className="join">Join now for 3000</button>
+          </div>
         </div>
       </div>
       <div className="vdo">

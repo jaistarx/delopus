@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { HorizontalBar } from "react-chartjs-2";
-import Rating from "@material-ui/lab/Rating";
+import StarRatings from "react-star-ratings";
 import "./stars.css";
 import { IconContext } from "react-icons/lib";
 import { BsPersonFill } from "react-icons/bs";
@@ -24,8 +24,8 @@ var options = {
     ],
   },
   legend: {
-      display:false,
-  }
+    display: false,
+  },
 };
 const data = {
   labels: ["5", "4", "3", "2", "1"],
@@ -39,7 +39,7 @@ const data = {
         "rgba(0,99,132)",
         "rgba(255,99,0)",
       ],
-      
+
       borderWidth: 1,
 
       data: [85, 59, 20, 11, 6],
@@ -56,11 +56,11 @@ export default class BarExample extends Component {
             <p>4.5</p>
           </div>
           <div className="rate-stars">
-            <Rating
-              name="half-rating-read"
-              defaultValue={4.5}
-              precision={0.5}
-              readOnly
+            <StarRatings
+              rating={4.503}
+              starDimension="1.2rem"
+              starSpacing="0.2rem"
+              starRatedColor="#F3990F"
             />
           </div>
           <div>
@@ -89,7 +89,6 @@ export default class BarExample extends Component {
             options={options}
           />
         </div>
-        
       </div>
     );
   }

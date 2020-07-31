@@ -16,7 +16,7 @@
 .rateflex{
     display: flex;
     margin-left: 2.5%;
-    width:100%;    
+    /* width:100%;     */
 }
 
 .bars{
@@ -31,7 +31,7 @@
 }
 
 .ppl{
-    margin-left: 25%;
+    margin-left: 20%;
     font-size: 0.8rem;
     color:gray;
     margin-top: 5%;
@@ -61,9 +61,9 @@
         font-size: 0.8rem;
     }
     
-    .bars{
+    /* .bars{
         width: 30%;
-    }
+    } */
     
     .rate{
         font-size: 5rem;
@@ -77,20 +77,16 @@
         margin-right: 30%;
         width:40%;
     }
-    .ppl{
+    /* .ppl{
         margin-left: 0.5%;
         margin-top: 1%;
         font-size: 0.9rem;
-    }
+    } */
     .pplflex{
         margin-left: 35%;
         margin-right: 35%;
         width:30%;  
     }
-    
-    
-}
-@media screen and (max-width:40rem){
     .rateflex{
         flex-direction: column;
     }
@@ -104,7 +100,9 @@
     }
     
     .ppl{
-        margin-left: 5%;
+        margin-left: 10%;
+        margin-top: 1%;
+        font-size: 0.9rem;
     }
     
 }

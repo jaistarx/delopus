@@ -4,10 +4,10 @@
     margin-top: 2%;
 }
 .headingmain{
-    width: 40%;
+    width: 30%;
 }
 .starbutton{
-    width:15%;
+    width:20%;
 }
 .join{
     padding: 3%;
@@ -65,6 +65,8 @@ ul li{
     color:gray;
    
 }
+
+
 @media screen and (max-width:54rem){
     .topflexing{
         flex-direction: column;
@@ -92,8 +94,10 @@ ul li{
         margin-left: 1.5%;
     }
     .starbutton{
-        display: flex;
-        width: 100%;
+        /* display: flex; */
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
         justify-content: space-evenly;
     }
     .grayflexing{
@@ -112,11 +116,16 @@ ul li{
     }
     
 }
-@media screen and (max-width:45rem){
+
+@media screen and (max-width:46rem){
     .starbutton{
         flex-direction: column;
+        width:100%;
+        margin-left: 0%;
+        margin-right: 0%;
         
     }
+    
     .star{
         margin-left:-45%;
     }

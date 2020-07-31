@@ -1,30 +1,26 @@
 import React from "react";
-import Rating from "@material-ui/lab/Rating";
 import "./stars.css";
 import BarExample from "./charts.js";
-
+import StarRatings from "react-star-ratings";
 
 export default function SimpleRating() {
-
-
   return (
-      
     <div>
-      
       <BarExample />
- 
+
       <div className="ratings">
         <div className="spaces">
           <img src="images/comp.svg" alt="profile" className="profile"></img>
         </div>
 
         <div>
-          <Rating
-            name="half-rating-read"
-            defaultValue={4}
-            precision={0.5}
-            readOnly
+          <StarRatings
+            rating={4.503}
+            starDimension="1.2rem"
+            starSpacing="0.2rem"
+            starRatedColor="#F3990F"
           />
+
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.Lorem Ipsum is simply dummy text of the printing and
@@ -39,11 +35,11 @@ export default function SimpleRating() {
         </div>
 
         <div>
-          <Rating
-            name="half-rating-read"
-            defaultValue={4.5}
-            precision={0.5}
-            readOnly
+          <StarRatings
+            rating={4.003}
+            starDimension="1.2rem"
+            starSpacing="0.2rem"
+            starRatedColor="#F3990F"
           />
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -53,11 +49,7 @@ export default function SimpleRating() {
           </p>
         </div>
       </div>
-      <div>
-      
-      
-      
-      </div>
+      <div></div>
     </div>
   );
 }
