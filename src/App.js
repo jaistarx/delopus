@@ -4,6 +4,7 @@ import { Router } from "@reach/router";
 import Course from "./Coursepage";
 import Classes from "./classes";
 import Desc from "./CourseDesc";
+import Scroll from "./Cardscroll";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Courses path="/courses"></Courses>
       <Classview path="/classes"></Classview>
       <Description path="/description"></Description>
+      <Cardscrolling path="/cards"></Cardscrolling>
     </Router>
   );
 }
@@ -26,5 +28,8 @@ const Classview = () => {
 };
 const Description = () => {
   return <Desc />;
+};
+const Cardscrolling = () => {
+  return <Scroll />;
 };
 export default App;
