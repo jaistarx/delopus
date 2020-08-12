@@ -1,10 +1,23 @@
-.flexing-props{
-    margin-top: 5%;
-    display:flex;
-    margin-left: 20%;
-    margin-right: 20%;
-    width:60%;
-    /* border-color: #F3990F; */
-    color: white;
-    border: 0.25rem solid #F3990F;
+.flexing-props {
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-between;
+  /* padding: 0.1%; */
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+  /* border-color: #F3990F; */
+  color: white;
+  border: 0.25rem solid #f3990f;
+}
+.dropping {
+  padding: 0.5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+  color: white;
+  border: 0.25rem solid #f3990f;
+  border-top: none;
 }
